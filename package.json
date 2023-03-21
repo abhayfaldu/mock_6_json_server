@@ -1,15 +1,23 @@
 {
-	"name": "json_server",
+	"name": "mock_6_json_server",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"server": "nodemon index.js"
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/abhayfaldu/mock_6_json_server.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/abhayfaldu/mock_6_json_server/issues"
+	},
+	"homepage": "https://github.com/abhayfaldu/mock_6_json_server#readme",
 	"dependencies": {
 		"cors": "^2.8.5",
 		"json-serve": "^0.1.0",
